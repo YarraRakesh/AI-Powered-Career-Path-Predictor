@@ -9,12 +9,13 @@ st.title("🎓 AI-Powered Career Path Predictor")
 with open("model.pkl", "rb") as f:
     model, le = pickle.load(f)
 
-st.write("### 🔍 Enter your details below:")
+st.write("### 🔍 Enter your details:")
 
 branch = st.selectbox("Your Current Branch", [
-    "CSE/IT", "ECE", "Electrical", "Mechanical", "Civil", "Chemical", "Biotech", "Other"
+    "CSE/IT", "ECE", "Mechanical", "Electrical", "Civil", "Other"
 ])
 
+# New inputs
 math = st.slider("Math Score", 0, 100, 70)
 english = st.slider("English Score", 0, 100, 70)
 coding = st.slider("Coding Skill", 0, 100, 70)
@@ -24,17 +25,49 @@ loves_design = st.radio("Do you love design/creativity?", ["Yes", "No"]) == "Yes
 talks_alot = st.slider("Communication Skill (0-1)", 0.0, 1.0, 0.5)
 logic = st.slider("Logical Thinking (0-1)", 0.0, 1.0, 0.5)
 likes_outdoor = st.radio("Prefer outdoor or site-based work?", ["No", "Yes"]) == "Yes"
-research_interest = st.radio("Are you interested in research/academia?", ["No", "Yes"]) == "Yes"
+research_interest = st.radio("Interested in research/academia?", ["No", "Yes"]) == "Yes"
 
-# Convert to input format
+work_env = st.selectbox("Preferred Work Environment", ["Office/Remote", "Field/Site", "Lab/Research"])
+learning_style = st.selectbox("Preferred Learning Style", ["Visual", "Hands-on", "Theoretical"])
+
+st.markdown("### 🧠 Programming Skills:")
+knows_python = st.checkbox("Knows Python")
+knows_c = st.checkbox("Knows C")
+knows_cpp = st.checkbox("Knows C++")
+knows_java = st.checkbox("Knows Java")
+custom_languages = st.text_input("Other Languages Known (comma-separated)", placeholder="e.g., Verilog, JavaScript, Rust")
+
+st.markdown("### 🧠 Soft Skills:")
+team_player = st.checkbox("Team Player")
+leadership_score = st.slider("Leadership (0-1)", 0.0, 1.0, 0.5)
+adaptability_score = st.slider("Adaptability (0-1)", 0.0, 1.0, 0.5)
+
+st.markdown("### 🔮 Future Tech Interests:")
+ai = st.checkbox("Interested in AI/ML")
+blockchain = st.checkbox("Interested in Blockchain")
+cyber = st.checkbox("Interested in Cybersecurity")
+vlsi = st.checkbox("Interested in VLSI")
+robotics = st.checkbox("Interested in Robotics")
+custom_tech = st.text_input("Other Tech Interests (comma-separated)", placeholder="e.g., Quantum Computing, Edge AI")
+
+# Data formatting
 input_data = pd.DataFrame([[
     math, english, coding,
     int(loves_tech), int(loves_design),
     talks_alot, logic,
-    int(likes_outdoor), int(research_interest)
+    int(likes_outdoor), int(research_interest),
+    ["Office/Remote", "Field/Site", "Lab/Research"].index(work_env),
+    ["Visual", "Hands-on", "Theoretical"].index(learning_style),
+    int(knows_python), int(knows_c), int(knows_cpp), int(knows_java),
+    int(team_player), leadership_score, adaptability_score,
+    int(ai), int(blockchain), int(cyber), int(vlsi), int(robotics)
 ]], columns=[
     "Math", "English", "Coding", "Loves_Tech", "Loves_Design",
-    "Talks_Alot", "Logic", "Likes_Outdoor", "Research_Interest"
+    "Talks_Alot", "Logic", "Likes_Outdoor", "Research_Interest",
+    "Work_Env", "Learning_Style", "Knows_Python", "Knows_C",
+    "Knows_CPP", "Knows_Java", "Team_Player", "Leadership_Score",
+    "Adaptability_Score", "Interested_in_AI", "Interested_in_Blockchain",
+    "Interested_in_Cybersecurity", "Interested_in_VLSI", "Interested_in_Robotics"
 ])
 
 if st.button("Predict My Future Career 🚀"):
@@ -42,36 +75,6 @@ if st.button("Predict My Future Career 🚀"):
     career = le.inverse_transform([prediction])[0]
 
     st.success(f"🌟 Recommended Career Path: **{career}**")
-    st.info(f"📘 Based on your interest in {branch}, this is a great fit!")
+    st.info(f"📘 Based on your profile and branch: {branch}")
 
-    # 🎯 Career Advice Dictionary
-    advice = {
-        "Software Engineer": "Focus on DSA, Python/Java, and system design.",
-        "AI Engineer": "Master Python, ML libraries (scikit-learn, TensorFlow), and Math.",
-        "Data Scientist": "Focus on data cleaning, statistics, ML models, and visualization.",
-        "Cybersecurity Analyst": "Learn network security, firewalls, Linux, and CEH basics.",
-        "UX Designer": "Build design portfolios, learn Figma, Adobe XD, and user testing.",
-        "VLSI Engineer": "Practice Verilog, DSA, and EDA tools like Cadence or Synopsys.",
-        "Embedded Developer": "Focus on C/C++, microcontrollers (AVR, ARM), and RTOS.",
-        "Mechanical Engineer": "Learn CAD tools (AutoCAD, SolidWorks), and thermodynamics.",
-        "Design Engineer (Mech)": "Master simulation and design tools like CATIA, Creo.",
-        "Civil Site Engineer": "Focus on fieldwork, project planning, and civil drawing tools.",
-        "Structural Engineer": "Strengthen knowledge in RCC, STAAD Pro, and structures.",
-        "Electrical Power Engineer": "Study circuits, power systems, and simulation tools.",
-        "Electronics R&D Engineer": "Explore PCB design, research papers, and embedded Linux.",
-        "Graphic Designer": "Learn Photoshop, Illustrator, and design principles.",
-        "HR Manager": "Build communication, team leadership, and HR tools like Zoho.",
-        "DevOps Engineer": "Learn Docker, Jenkins, cloud (AWS), and CI/CD pipelines.",
-        "Environmental Analyst": "Focus on sustainability, field sampling, and GIS tools.",
-        "Sales Executive": "Improve people skills, CRM tools, and target tracking.",
-        "Full Stack Developer": "Learn frontend (React), backend (Node.js/Python), and APIs.",
-        "Digital Marketer": "Master SEO, SEM, content marketing, and analytics.",
-        "Content Writer": "Focus on blogging, SEO writing, and audience research.",
-        "Marketing Specialist": "Study branding, email campaigns, and conversion metrics.",
-        "Public Relations": "Polish communication, event management, and media handling."
-    }
-
-    # Show career advice
-    if career in advice:
-        st.write("🎯 **To achieve this career, you should:**")
-        st.success(advice[career])
+    # Optional: add advice dictionary here later if you want

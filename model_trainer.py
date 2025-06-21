@@ -4,7 +4,8 @@ from sklearn.preprocessing import LabelEncoder
 import pickle
 
 print("🔍 Reading dataset...")
-df = pd.read_csv("career_data.csv")
+df = pd.read_csv("career_data.csv")  # use the new expanded file
+
 X = df.drop("Career", axis=1)
 y = df["Career"]
 
