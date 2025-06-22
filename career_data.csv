@@ -1,101 +1,101 @@
-Math,English,Coding,Loves_Tech,Loves_Design,Talks_Alot,Logic,Likes_Outdoor,Research_Interest,Work_Env,Learning_Style,Knows_Python,Knows_C,Knows_CPP,Knows_Java,Team_Player,Leadership_Score,Adaptability_Score,Interested_in_AI,Interested_in_Blockchain,Interested_in_Cybersecurity,Interested_in_VLSI,Interested_in_Robotics,Career
-75,54,51,0,0,0.67,0.65,0,0,0,1,0,1,1,1,1,0.27,0.77,1,0,0,0,0,AI Engineer
-75,50,91,0,1,0.7,0.56,0,1,2,0,1,1,0,0,1,0.88,0.84,1,0,0,0,0,AI Engineer
-93,80,56,1,1,0.7,0.53,0,0,0,0,1,1,1,1,1,0.86,0.96,1,0,0,0,0,AI Engineer
-62,84,72,1,0,0.8,0.44,0,0,0,2,1,0,0,1,0,0.59,0.7,1,0,0,0,0,AI Engineer
-79,57,97,1,0,0.23,0.88,1,1,1,0,0,1,1,1,1,0.84,0.49,1,0,0,0,0,AI Engineer
-95,52,76,1,1,0.89,0.45,0,0,2,0,1,0,1,1,1,0.56,0.73,1,0,0,0,0,Data Scientist
-66,62,65,1,0,0.68,0.41,0,0,1,2,1,1,1,1,1,0.79,0.32,1,0,0,0,0,Data Scientist
-68,51,52,0,0,0.29,0.51,1,1,0,1,1,1,0,0,0,0.89,0.8,1,0,0,0,0,Data Scientist
-69,87,60,1,0,0.54,0.84,0,1,0,1,1,1,1,1,0,0.55,0.72,1,0,0,0,0,Data Scientist
-62,77,63,1,1,0.22,0.85,1,0,2,2,1,1,1,0,1,0.76,0.48,1,0,0,0,0,Data Scientist
-63,55,45,0,0,0.36,0.75,1,1,1,1,0,1,1,0,0,0.29,0.66,0,0,0,1,0,VLSI Engineer
-80,90,94,0,1,0.3,0.59,0,0,1,1,0,0,1,1,1,0.24,0.63,0,0,0,1,0,VLSI Engineer
-60,68,50,1,0,0.48,0.7,0,0,0,2,0,1,1,1,1,0.32,0.34,0,0,0,1,0,VLSI Engineer
-91,62,82,1,0,0.78,0.89,0,0,0,0,0,1,1,1,1,0.22,0.72,0,0,0,1,0,VLSI Engineer
-91,87,71,1,1,0.7,0.55,0,1,1,2,1,0,1,0,1,0.54,0.65,0,0,0,1,0,VLSI Engineer
-63,52,74,1,1,0.41,0.93,0,1,2,2,1,1,1,0,1,0.81,0.92,0,0,1,0,0,Cybersecurity Analyst
-66,87,68,1,0,0.45,0.44,0,0,1,0,1,1,1,1,1,0.51,0.45,0,0,1,0,0,Cybersecurity Analyst
-64,65,96,1,1,0.9,0.48,0,0,0,0,1,1,1,1,1,0.69,0.51,0,0,1,0,0,Cybersecurity Analyst
-91,73,51,0,0,0.39,0.91,0,0,0,0,1,0,1,1,0,0.59,0.77,0,0,1,0,0,Cybersecurity Analyst
-60,75,74,0,1,0.36,0.87,1,0,0,0,1,0,1,0,0,0.24,0.92,0,0,1,0,0,Cybersecurity Analyst
-94,80,70,1,1,0.62,0.52,0,1,0,1,1,0,0,1,0,0.36,0.55,0,0,0,0,1,Robotics Engineer
-57,52,86,0,0,0.35,0.89,0,1,0,2,1,0,1,1,0,0.96,0.34,0,0,0,0,1,Robotics Engineer
-65,76,81,0,1,0.65,0.58,0,0,0,2,1,0,0,0,1,0.82,0.48,0,0,0,0,1,Robotics Engineer
-73,63,57,1,1,0.66,0.84,1,1,0,0,0,0,0,1,1,0.36,0.59,0,0,0,0,1,Robotics Engineer
-75,53,76,0,0,0.88,0.76,1,1,0,2,1,1,1,1,1,0.27,0.61,0,0,0,0,1,Robotics Engineer
-79,52,43,0,0,0.75,0.45,1,1,2,0,0,1,1,1,0,0.97,0.33,0,0,0,0,0,Full Stack Developer
-61,69,54,1,1,0.61,0.88,0,0,1,1,1,1,0,0,1,0.58,0.85,0,0,0,0,0,Full Stack Developer
-89,54,46,1,0,0.44,0.58,1,1,1,1,0,0,0,1,1,0.99,0.93,0,0,0,0,0,Full Stack Developer
-72,69,64,0,1,0.89,0.63,1,0,2,2,1,1,0,1,0,0.57,0.43,0,0,0,0,0,Full Stack Developer
-87,83,85,1,0,0.22,0.71,0,1,0,0,0,0,0,1,0,0.2,0.71,0,0,0,0,0,Full Stack Developer
-69,57,60,0,1,0.8,0.58,1,1,0,2,0,1,0,0,0,0.67,0.85,0,0,0,0,0,Embedded Systems Developer
-61,60,72,1,0,0.75,0.88,0,0,1,0,0,1,0,1,1,0.79,0.58,0,0,0,0,0,Embedded Systems Developer
-89,83,46,0,0,0.77,0.63,1,1,0,0,0,0,0,0,1,0.58,0.75,0,0,0,0,0,Embedded Systems Developer
-70,58,52,0,1,0.84,0.46,0,1,0,1,1,1,1,0,1,0.36,0.54,0,0,0,0,0,Embedded Systems Developer
-78,53,68,0,1,0.7,0.92,1,0,0,0,0,1,1,1,0,0.52,0.84,0,0,0,0,0,Embedded Systems Developer
-66,76,73,0,0,0.4,0.57,1,0,0,2,1,1,1,1,0,0.25,0.97,0,0,0,0,0,IoT Solutions Architect
-67,50,54,1,0,0.54,0.53,0,1,2,2,0,1,1,0,1,0.59,0.53,0,0,0,0,0,IoT Solutions Architect
-61,58,96,0,1,0.43,0.82,1,0,2,0,1,1,1,1,1,0.73,0.75,0,0,0,0,0,IoT Solutions Architect
-93,71,72,0,0,0.83,0.49,1,1,2,2,1,0,0,1,0,0.46,0.49,0,0,0,0,0,IoT Solutions Architect
-90,60,54,0,1,0.6,0.79,0,0,0,0,0,1,1,1,1,0.56,0.54,0,0,0,0,0,IoT Solutions Architect
-67,54,83,1,1,0.48,0.52,0,0,1,2,1,1,0,0,1,0.72,0.35,0,0,0,0,0,Cloud Engineer
-77,52,61,1,0,0.36,0.77,1,0,0,1,1,1,0,1,0,0.65,0.61,0,0,0,0,0,Cloud Engineer
-62,55,65,1,1,0.74,0.65,0,0,1,2,0,1,0,1,1,0.4,0.73,0,0,0,0,0,Cloud Engineer
-93,80,59,1,0,0.36,0.61,0,1,2,2,0,1,0,0,1,0.53,0.8,0,0,0,0,0,Cloud Engineer
-59,85,82,1,0,0.28,0.72,1,1,2,0,1,1,1,0,1,0.26,0.54,0,0,0,0,0,Cloud Engineer
-80,67,58,0,1,0.55,0.63,1,1,2,1,1,1,0,0,0,0.7,0.68,0,0,0,0,0,DevOps Engineer
-72,68,60,1,0,0.54,0.86,1,0,2,1,0,1,1,1,0,0.72,0.95,0,0,0,0,0,DevOps Engineer
-61,71,93,1,0,0.73,0.81,1,1,1,1,0,1,0,1,0,0.56,0.32,0,0,0,0,0,DevOps Engineer
-77,74,99,1,0,0.71,0.63,1,1,1,0,1,1,0,1,1,0.92,0.34,0,0,0,0,0,DevOps Engineer
-71,54,50,1,1,0.46,0.83,0,1,1,0,0,1,1,1,0,0.76,0.52,0,0,0,0,0,DevOps Engineer
-66,67,96,1,1,0.21,0.74,1,1,1,0,1,0,1,1,1,0.24,0.67,0,0,0,0,0,Sustainable Design Engineer
-72,54,51,1,1,0.53,0.87,0,0,1,2,0,0,1,1,1,0.37,0.76,0,0,0,0,0,Sustainable Design Engineer
-84,56,99,1,0,0.64,0.52,1,0,2,1,1,0,1,1,0,0.48,0.87,0,0,0,0,0,Sustainable Design Engineer
-87,70,44,1,1,0.88,0.58,0,1,0,1,1,1,0,0,0,0.98,0.82,0,0,0,0,0,Sustainable Design Engineer
-73,67,98,1,1,0.62,0.91,1,0,1,1,1,0,0,0,1,0.61,0.5,0,0,0,0,0,Sustainable Design Engineer
-79,66,100,1,0,0.53,0.76,0,0,1,0,0,1,1,1,0,0.57,0.81,0,0,0,0,0,Mechanical Design Engineer
-79,73,100,1,1,0.55,0.57,1,0,1,0,1,1,1,1,1,0.7,0.41,0,0,0,0,0,Mechanical Design Engineer
-84,63,42,1,1,0.66,0.83,0,0,0,1,0,0,1,1,0,0.91,0.3,0,0,0,0,0,Mechanical Design Engineer
-69,64,48,0,0,0.22,0.81,0,0,1,2,1,0,0,1,1,0.21,0.39,0,0,0,0,0,Mechanical Design Engineer
-55,65,93,1,1,0.6,0.87,0,1,2,1,1,0,1,1,0,0.32,0.77,0,0,0,0,0,Mechanical Design Engineer
-67,84,42,1,1,0.48,0.79,0,1,1,1,0,1,1,0,1,0.7,0.89,0,0,0,0,0,Civil Infrastructure Analyst
-88,56,48,1,1,0.42,0.78,0,0,0,1,1,0,0,1,0,0.31,0.4,0,0,0,0,0,Civil Infrastructure Analyst
-93,90,69,1,1,0.8,0.42,0,1,0,2,0,1,1,1,1,0.83,0.33,0,0,0,0,0,Civil Infrastructure Analyst
-84,55,84,1,1,0.38,0.4,1,1,1,0,0,1,1,0,1,0.45,0.57,0,0,0,0,0,Civil Infrastructure Analyst
-72,86,55,1,1,0.37,0.55,1,0,2,0,1,0,0,1,0,0.7,0.44,0,0,0,0,0,Civil Infrastructure Analyst
-56,69,65,1,0,0.86,0.84,0,0,2,1,0,1,0,0,1,0.5,0.94,0,0,0,0,0,Power Electronics Engineer
-80,71,91,1,0,0.23,0.81,1,1,1,0,1,1,0,1,1,0.63,0.91,0,0,0,0,0,Power Electronics Engineer
-78,68,72,0,0,0.81,0.91,0,1,2,1,1,1,0,0,1,0.77,0.78,0,0,0,0,0,Power Electronics Engineer
-82,90,46,1,0,0.61,0.42,1,0,2,1,1,1,0,1,0,0.51,0.74,0,0,0,0,0,Power Electronics Engineer
-79,71,94,0,1,0.22,0.59,0,1,2,2,0,1,1,0,0,0.35,0.53,0,0,0,0,0,Power Electronics Engineer
-60,61,54,1,1,0.59,0.77,1,1,2,2,1,1,1,1,1,0.45,0.81,0,0,0,0,0,Bioinformatics Specialist
-64,53,53,1,0,0.53,0.65,0,0,2,2,1,0,1,0,1,0.73,0.96,0,0,0,0,0,Bioinformatics Specialist
-89,64,73,1,1,0.35,0.45,1,0,0,0,1,1,0,1,1,0.58,0.75,0,0,0,0,0,Bioinformatics Specialist
-86,78,48,1,0,0.21,0.85,0,0,2,2,1,1,1,0,1,0.42,0.5,0,0,0,0,0,Bioinformatics Specialist
-57,56,55,1,1,0.74,0.72,1,0,1,0,1,1,0,0,0,0.4,0.6,0,0,0,0,0,Bioinformatics Specialist
-84,90,62,1,0,0.29,0.7,0,1,2,0,0,0,0,1,1,0.58,0.93,0,0,0,0,0,AR/VR Developer
-81,56,96,0,0,0.22,0.61,1,0,2,1,1,0,1,1,1,0.4,0.66,0,0,0,0,0,AR/VR Developer
-60,90,57,0,1,0.86,0.41,1,1,0,1,1,1,0,0,0,0.69,0.59,0,0,0,0,0,AR/VR Developer
-79,77,83,1,1,0.87,0.86,1,0,1,0,0,1,0,1,0,0.66,0.75,0,0,0,0,0,AR/VR Developer
-60,60,82,1,0,0.24,0.44,0,0,2,0,0,0,1,1,1,0.85,0.55,0,0,0,0,0,AR/VR Developer
-92,90,84,0,0,0.27,0.77,1,1,1,0,0,1,1,0,1,0.94,0.75,0,1,0,0,0,Blockchain Developer
-57,58,82,1,0,0.71,0.55,0,0,2,2,1,1,1,1,1,0.28,0.48,0,1,0,0,0,Blockchain Developer
-65,77,97,1,0,0.45,0.94,1,0,1,1,1,1,0,0,1,0.21,0.56,0,1,0,0,0,Blockchain Developer
-87,58,96,0,0,0.85,0.56,0,0,2,2,1,1,1,1,1,0.7,0.67,0,1,0,0,0,Blockchain Developer
-61,56,52,1,1,0.47,0.71,1,0,0,2,0,0,1,1,0,0.22,0.4,0,1,0,0,0,Blockchain Developer
-83,54,50,1,1,0.35,0.53,1,1,1,0,1,0,0,0,0,0.31,0.43,0,0,0,0,0,Product Manager
-59,70,43,1,1,0.56,0.41,1,0,0,1,1,1,1,1,0,0.55,0.54,0,0,0,0,0,Product Manager
-87,51,97,0,1,0.88,0.81,1,0,2,2,0,1,1,0,1,0.89,0.45,0,0,0,0,0,Product Manager
-91,54,48,1,0,0.44,0.73,0,0,0,1,1,1,0,1,0,0.79,1.0,0,0,0,0,0,Product Manager
-91,51,48,0,0,0.47,0.53,0,1,0,1,1,1,0,1,1,0.52,0.77,0,0,0,0,0,Product Manager
-91,72,72,1,1,0.43,0.68,1,0,1,0,1,0,0,0,1,0.27,0.78,0,0,0,0,0,Technical Writer
-72,70,78,1,1,0.55,0.76,0,0,2,0,1,1,1,1,1,0.85,0.38,0,0,0,0,0,Technical Writer
-64,65,74,1,0,0.76,0.89,1,0,2,0,1,0,0,1,1,0.44,0.38,0,0,0,0,0,Technical Writer
-75,68,74,1,1,0.5,0.56,1,1,0,1,1,0,0,1,1,0.24,0.33,0,0,0,0,0,Technical Writer
-77,62,78,1,0,0.47,0.61,0,1,0,0,1,1,0,1,1,0.62,0.68,0,0,0,0,0,Technical Writer
-84,61,42,1,1,0.64,0.83,0,1,0,2,1,1,0,1,1,0.39,0.54,0,0,0,0,0,Digital Marketing Analyst
-82,56,74,0,1,0.2,0.61,0,0,0,0,0,1,0,0,1,0.28,0.99,0,0,0,0,0,Digital Marketing Analyst
-63,53,82,0,0,0.27,0.74,1,1,1,0,0,1,1,1,1,0.35,0.55,0,0,0,0,0,Digital Marketing Analyst
-95,50,42,0,1,0.34,0.8,1,1,2,1,1,1,0,1,1,0.76,0.98,0,0,0,0,0,Digital Marketing Analyst
-61,58,96,1,0,0.76,0.79,1,1,0,2,0,1,1,0,1,0.34,0.33,0,0,0,0,0,Digital Marketing Analyst
+Current_Branch,Interested_Branch,Math,English,Coding,Loves_Tech,Loves_Design,Talks_Alot,Logic,Likes_Outdoor,Research_Interest,Work_Env,Learning_Style,Knows_Python,Knows_C,Knows_CPP,Knows_Java,Team_Player,Leadership_Score,Adaptability_Score,Interested_in_AI,Interested_in_Blockchain,Interested_in_Cybersecurity,Interested_in_VLSI,Interested_in_Robotics,Career
+Civil,Electrical,75,54,51,0,0,0.67,0.65,0,0,0,1,0,1,1,1,1,0.27,0.77,1,0,0,0,0,AI Engineer
+Civil,CSE,75,50,91,0,1,0.7,0.56,0,1,2,0,1,1,0,0,1,0.88,0.84,1,0,0,0,0,AI Engineer
+Electrical,CSE,93,80,56,1,1,0.7,0.53,0,0,0,0,1,1,1,1,1,0.86,0.96,1,0,0,0,0,AI Engineer
+CSE,Electrical,62,84,72,1,0,0.8,0.44,0,0,0,2,1,0,0,1,0,0.59,0.7,1,0,0,0,0,AI Engineer
+CSE,ECE,79,57,97,1,0,0.23,0.88,1,1,1,0,0,1,1,1,1,0.84,0.49,1,0,0,0,0,AI Engineer
+CSE,Mechanical,95,52,76,1,1,0.89,0.45,0,0,2,0,1,0,1,1,1,0.56,0.73,1,0,0,0,0,Data Scientist
+Civil,ECE,66,62,65,1,0,0.68,0.41,0,0,1,2,1,1,1,1,1,0.79,0.32,1,0,0,0,0,Data Scientist
+CSE,CSE,68,51,52,0,0,0.29,0.51,1,1,0,1,1,1,0,0,0,0.89,0.8,1,0,0,0,0,Data Scientist
+CSE,Electrical,69,87,60,1,0,0.54,0.84,0,1,0,1,1,1,1,1,0,0.55,0.72,1,0,0,0,0,Data Scientist
+Civil,Mechanical,62,77,63,1,1,0.22,0.85,1,0,2,2,1,1,1,0,1,0.76,0.48,1,0,0,0,0,Data Scientist
+ECE,Civil,63,55,45,0,0,0.36,0.75,1,1,1,1,0,1,1,0,0,0.29,0.66,0,0,0,1,0,VLSI Engineer
+Civil,ECE,80,90,94,0,1,0.3,0.59,0,0,1,1,0,0,1,1,1,0.24,0.63,0,0,0,1,0,VLSI Engineer
+Electrical,Electrical,60,68,50,1,0,0.48,0.7,0,0,0,2,0,1,1,1,1,0.32,0.34,0,0,0,1,0,VLSI Engineer
+CSE,Electrical,91,62,82,1,0,0.78,0.89,0,0,0,0,0,1,1,1,1,0.22,0.72,0,0,0,1,0,VLSI Engineer
+CSE,CSE,91,87,71,1,1,0.7,0.55,0,1,1,2,1,0,1,0,1,0.54,0.65,0,0,0,1,0,VLSI Engineer
+ECE,ECE,63,52,74,1,1,0.41,0.93,0,1,2,2,1,1,1,0,1,0.81,0.92,0,0,1,0,0,Cybersecurity Analyst
+Electrical,CSE,66,87,68,1,0,0.45,0.44,0,0,1,0,1,1,1,1,1,0.51,0.45,0,0,1,0,0,Cybersecurity Analyst
+Mechanical,Electrical,64,65,96,1,1,0.9,0.48,0,0,0,0,1,1,1,1,1,0.69,0.51,0,0,1,0,0,Cybersecurity Analyst
+Mechanical,Mechanical,91,73,51,0,0,0.39,0.91,0,0,0,0,1,0,1,1,0,0.59,0.77,0,0,1,0,0,Cybersecurity Analyst
+ECE,Electrical,60,75,74,0,1,0.36,0.87,1,0,0,0,1,0,1,0,0,0.24,0.92,0,0,1,0,0,Cybersecurity Analyst
+ECE,Electrical,94,80,70,1,1,0.62,0.52,0,1,0,1,1,0,0,1,0,0.36,0.55,0,0,0,0,1,Robotics Engineer
+Electrical,ECE,57,52,86,0,0,0.35,0.89,0,1,0,2,1,0,1,1,0,0.96,0.34,0,0,0,0,1,Robotics Engineer
+Civil,ECE,65,76,81,0,1,0.65,0.58,0,0,0,2,1,0,0,0,1,0.82,0.48,0,0,0,0,1,Robotics Engineer
+ECE,Mechanical,73,63,57,1,1,0.66,0.84,1,1,0,0,0,0,0,1,1,0.36,0.59,0,0,0,0,1,Robotics Engineer
+Electrical,Civil,75,53,76,0,0,0.88,0.76,1,1,0,2,1,1,1,1,1,0.27,0.61,0,0,0,0,1,Robotics Engineer
+Mechanical,ECE,79,52,43,0,0,0.75,0.45,1,1,2,0,0,1,1,1,0,0.97,0.33,0,0,0,0,0,Full Stack Developer
+Mechanical,ECE,61,69,54,1,1,0.61,0.88,0,0,1,1,1,1,0,0,1,0.58,0.85,0,0,0,0,0,Full Stack Developer
+Mechanical,Civil,89,54,46,1,0,0.44,0.58,1,1,1,1,0,0,0,1,1,0.99,0.93,0,0,0,0,0,Full Stack Developer
+ECE,CSE,72,69,64,0,1,0.89,0.63,1,0,2,2,1,1,0,1,0,0.57,0.43,0,0,0,0,0,Full Stack Developer
+ECE,Mechanical,87,83,85,1,0,0.22,0.71,0,1,0,0,0,0,0,1,0,0.2,0.71,0,0,0,0,0,Full Stack Developer
+ECE,Civil,69,57,60,0,1,0.8,0.58,1,1,0,2,0,1,0,0,0,0.67,0.85,0,0,0,0,0,Embedded Systems Developer
+Mechanical,ECE,61,60,72,1,0,0.75,0.88,0,0,1,0,0,1,0,1,1,0.79,0.58,0,0,0,0,0,Embedded Systems Developer
+CSE,Civil,89,83,46,0,0,0.77,0.63,1,1,0,0,0,0,0,0,1,0.58,0.75,0,0,0,0,0,Embedded Systems Developer
+Mechanical,Mechanical,70,58,52,0,1,0.84,0.46,0,1,0,1,1,1,1,0,1,0.36,0.54,0,0,0,0,0,Embedded Systems Developer
+Electrical,ECE,78,53,68,0,1,0.7,0.92,1,0,0,0,0,1,1,1,0,0.52,0.84,0,0,0,0,0,Embedded Systems Developer
+Mechanical,Electrical,66,76,73,0,0,0.4,0.57,1,0,0,2,1,1,1,1,0,0.25,0.97,0,0,0,0,0,IoT Solutions Architect
+ECE,Civil,67,50,54,1,0,0.54,0.53,0,1,2,2,0,1,1,0,1,0.59,0.53,0,0,0,0,0,IoT Solutions Architect
+CSE,Mechanical,61,58,96,0,1,0.43,0.82,1,0,2,0,1,1,1,1,1,0.73,0.75,0,0,0,0,0,IoT Solutions Architect
+CSE,Civil,93,71,72,0,0,0.83,0.49,1,1,2,2,1,0,0,1,0,0.46,0.49,0,0,0,0,0,IoT Solutions Architect
+ECE,ECE,90,60,54,0,1,0.6,0.79,0,0,0,0,0,1,1,1,1,0.56,0.54,0,0,0,0,0,IoT Solutions Architect
+Electrical,Electrical,67,54,83,1,1,0.48,0.52,0,0,1,2,1,1,0,0,1,0.72,0.35,0,0,0,0,0,Cloud Engineer
+Mechanical,Mechanical,77,52,61,1,0,0.36,0.77,1,0,0,1,1,1,0,1,0,0.65,0.61,0,0,0,0,0,Cloud Engineer
+Mechanical,CSE,62,55,65,1,1,0.74,0.65,0,0,1,2,0,1,0,1,1,0.4,0.73,0,0,0,0,0,Cloud Engineer
+CSE,Civil,93,80,59,1,0,0.36,0.61,0,1,2,2,0,1,0,0,1,0.53,0.8,0,0,0,0,0,Cloud Engineer
+Mechanical,Electrical,59,85,82,1,0,0.28,0.72,1,1,2,0,1,1,1,0,1,0.26,0.54,0,0,0,0,0,Cloud Engineer
+Mechanical,CSE,80,67,58,0,1,0.55,0.63,1,1,2,1,1,1,0,0,0,0.7,0.68,0,0,0,0,0,DevOps Engineer
+CSE,CSE,72,68,60,1,0,0.54,0.86,1,0,2,1,0,1,1,1,0,0.72,0.95,0,0,0,0,0,DevOps Engineer
+Civil,CSE,61,71,93,1,0,0.73,0.81,1,1,1,1,0,1,0,1,0,0.56,0.32,0,0,0,0,0,DevOps Engineer
+Mechanical,Civil,77,74,99,1,0,0.71,0.63,1,1,1,0,1,1,0,1,1,0.92,0.34,0,0,0,0,0,DevOps Engineer
+Mechanical,Mechanical,71,54,50,1,1,0.46,0.83,0,1,1,0,0,1,1,1,0,0.76,0.52,0,0,0,0,0,DevOps Engineer
+Civil,CSE,66,67,96,1,1,0.21,0.74,1,1,1,0,1,0,1,1,1,0.24,0.67,0,0,0,0,0,Sustainable Design Engineer
+ECE,ECE,72,54,51,1,1,0.53,0.87,0,0,1,2,0,0,1,1,1,0.37,0.76,0,0,0,0,0,Sustainable Design Engineer
+Mechanical,CSE,84,56,99,1,0,0.64,0.52,1,0,2,1,1,0,1,1,0,0.48,0.87,0,0,0,0,0,Sustainable Design Engineer
+Civil,ECE,87,70,44,1,1,0.88,0.58,0,1,0,1,1,1,0,0,0,0.98,0.82,0,0,0,0,0,Sustainable Design Engineer
+Civil,ECE,73,67,98,1,1,0.62,0.91,1,0,1,1,1,0,0,0,1,0.61,0.5,0,0,0,0,0,Sustainable Design Engineer
+ECE,Electrical,79,66,100,1,0,0.53,0.76,0,0,1,0,0,1,1,1,0,0.57,0.81,0,0,0,0,0,Mechanical Design Engineer
+Civil,CSE,79,73,100,1,1,0.55,0.57,1,0,1,0,1,1,1,1,1,0.7,0.41,0,0,0,0,0,Mechanical Design Engineer
+ECE,ECE,84,63,42,1,1,0.66,0.83,0,0,0,1,0,0,1,1,0,0.91,0.3,0,0,0,0,0,Mechanical Design Engineer
+CSE,Civil,69,64,48,0,0,0.22,0.81,0,0,1,2,1,0,0,1,1,0.21,0.39,0,0,0,0,0,Mechanical Design Engineer
+Civil,Mechanical,55,65,93,1,1,0.6,0.87,0,1,2,1,1,0,1,1,0,0.32,0.77,0,0,0,0,0,Mechanical Design Engineer
+ECE,Mechanical,67,84,42,1,1,0.48,0.79,0,1,1,1,0,1,1,0,1,0.7,0.89,0,0,0,0,0,Civil Infrastructure Analyst
+Mechanical,Civil,88,56,48,1,1,0.42,0.78,0,0,0,1,1,0,0,1,0,0.31,0.4,0,0,0,0,0,Civil Infrastructure Analyst
+Mechanical,Civil,93,90,69,1,1,0.8,0.42,0,1,0,2,0,1,1,1,1,0.83,0.33,0,0,0,0,0,Civil Infrastructure Analyst
+Mechanical,Mechanical,84,55,84,1,1,0.38,0.4,1,1,1,0,0,1,1,0,1,0.45,0.57,0,0,0,0,0,Civil Infrastructure Analyst
+Mechanical,Mechanical,72,86,55,1,1,0.37,0.55,1,0,2,0,1,0,0,1,0,0.7,0.44,0,0,0,0,0,Civil Infrastructure Analyst
+Civil,CSE,56,69,65,1,0,0.86,0.84,0,0,2,1,0,1,0,0,1,0.5,0.94,0,0,0,0,0,Power Electronics Engineer
+ECE,ECE,80,71,91,1,0,0.23,0.81,1,1,1,0,1,1,0,1,1,0.63,0.91,0,0,0,0,0,Power Electronics Engineer
+Mechanical,Electrical,78,68,72,0,0,0.81,0.91,0,1,2,1,1,1,0,0,1,0.77,0.78,0,0,0,0,0,Power Electronics Engineer
+Mechanical,Electrical,82,90,46,1,0,0.61,0.42,1,0,2,1,1,1,0,1,0,0.51,0.74,0,0,0,0,0,Power Electronics Engineer
+Mechanical,Civil,79,71,94,0,1,0.22,0.59,0,1,2,2,0,1,1,0,0,0.35,0.53,0,0,0,0,0,Power Electronics Engineer
+Electrical,Electrical,60,61,54,1,1,0.59,0.77,1,1,2,2,1,1,1,1,1,0.45,0.81,0,0,0,0,0,Bioinformatics Specialist
+Civil,Civil,64,53,53,1,0,0.53,0.65,0,0,2,2,1,0,1,0,1,0.73,0.96,0,0,0,0,0,Bioinformatics Specialist
+Electrical,Electrical,89,64,73,1,1,0.35,0.45,1,0,0,0,1,1,0,1,1,0.58,0.75,0,0,0,0,0,Bioinformatics Specialist
+CSE,ECE,86,78,48,1,0,0.21,0.85,0,0,2,2,1,1,1,0,1,0.42,0.5,0,0,0,0,0,Bioinformatics Specialist
+ECE,ECE,57,56,55,1,1,0.74,0.72,1,0,1,0,1,1,0,0,0,0.4,0.6,0,0,0,0,0,Bioinformatics Specialist
+Civil,CSE,84,90,62,1,0,0.29,0.7,0,1,2,0,0,0,0,1,1,0.58,0.93,0,0,0,0,0,AR/VR Developer
+CSE,Civil,81,56,96,0,0,0.22,0.61,1,0,2,1,1,0,1,1,1,0.4,0.66,0,0,0,0,0,AR/VR Developer
+ECE,Mechanical,60,90,57,0,1,0.86,0.41,1,1,0,1,1,1,0,0,0,0.69,0.59,0,0,0,0,0,AR/VR Developer
+Civil,ECE,79,77,83,1,1,0.87,0.86,1,0,1,0,0,1,0,1,0,0.66,0.75,0,0,0,0,0,AR/VR Developer
+Mechanical,Electrical,60,60,82,1,0,0.24,0.44,0,0,2,0,0,0,1,1,1,0.85,0.55,0,0,0,0,0,AR/VR Developer
+Civil,CSE,92,90,84,0,0,0.27,0.77,1,1,1,0,0,1,1,0,1,0.94,0.75,0,1,0,0,0,Blockchain Developer
+ECE,Electrical,57,58,82,1,0,0.71,0.55,0,0,2,2,1,1,1,1,1,0.28,0.48,0,1,0,0,0,Blockchain Developer
+Civil,Civil,65,77,97,1,0,0.45,0.94,1,0,1,1,1,1,0,0,1,0.21,0.56,0,1,0,0,0,Blockchain Developer
+Civil,Electrical,87,58,96,0,0,0.85,0.56,0,0,2,2,1,1,1,1,1,0.7,0.67,0,1,0,0,0,Blockchain Developer
+CSE,Electrical,61,56,52,1,1,0.47,0.71,1,0,0,2,0,0,1,1,0,0.22,0.4,0,1,0,0,0,Blockchain Developer
+Mechanical,ECE,83,54,50,1,1,0.35,0.53,1,1,1,0,1,0,0,0,0,0.31,0.43,0,0,0,0,0,Product Manager
+Civil,Civil,59,70,43,1,1,0.56,0.41,1,0,0,1,1,1,1,1,0,0.55,0.54,0,0,0,0,0,Product Manager
+ECE,Mechanical,87,51,97,0,1,0.88,0.81,1,0,2,2,0,1,1,0,1,0.89,0.45,0,0,0,0,0,Product Manager
+Civil,Civil,91,54,48,1,0,0.44,0.73,0,0,0,1,1,1,0,1,0,0.79,1.0,0,0,0,0,0,Product Manager
+CSE,Electrical,91,51,48,0,0,0.47,0.53,0,1,0,1,1,1,0,1,1,0.52,0.77,0,0,0,0,0,Product Manager
+Electrical,Electrical,91,72,72,1,1,0.43,0.68,1,0,1,0,1,0,0,0,1,0.27,0.78,0,0,0,0,0,Technical Writer
+ECE,Electrical,72,70,78,1,1,0.55,0.76,0,0,2,0,1,1,1,1,1,0.85,0.38,0,0,0,0,0,Technical Writer
+Mechanical,CSE,64,65,74,1,0,0.76,0.89,1,0,2,0,1,0,0,1,1,0.44,0.38,0,0,0,0,0,Technical Writer
+Civil,Electrical,75,68,74,1,1,0.5,0.56,1,1,0,1,1,0,0,1,1,0.24,0.33,0,0,0,0,0,Technical Writer
+Mechanical,ECE,77,62,78,1,0,0.47,0.61,0,1,0,0,1,1,0,1,1,0.62,0.68,0,0,0,0,0,Technical Writer
+Electrical,Electrical,84,61,42,1,1,0.64,0.83,0,1,0,2,1,1,0,1,1,0.39,0.54,0,0,0,0,0,Digital Marketing Analyst
+Civil,Electrical,82,56,74,0,1,0.2,0.61,0,0,0,0,0,1,0,0,1,0.28,0.99,0,0,0,0,0,Digital Marketing Analyst
+Electrical,Mechanical,63,53,82,0,0,0.27,0.74,1,1,1,0,0,1,1,1,1,0.35,0.55,0,0,0,0,0,Digital Marketing Analyst
+ECE,Civil,95,50,42,0,1,0.34,0.8,1,1,2,1,1,1,0,1,1,0.76,0.98,0,0,0,0,0,Digital Marketing Analyst
+Mechanical,Civil,61,58,96,1,0,0.76,0.79,1,1,0,2,0,1,1,0,1,0.34,0.33,0,0,0,0,0,Digital Marketing Analyst

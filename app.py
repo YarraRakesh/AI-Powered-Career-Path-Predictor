@@ -5,17 +5,24 @@ import pickle
 st.set_page_config(page_title="Career Path Predictor", page_icon="🎓")
 st.title("🎓 AI-Powered Career Path Predictor")
 
-# Load model
+# Load model and label encoder
 with open("model.pkl", "rb") as f:
     model, le = pickle.load(f)
 
+# ---------------- Input Section ----------------
 st.write("### 🔍 Enter your details:")
 
 branch = st.selectbox("Your Current Branch", [
     "CSE/IT", "ECE", "Mechanical", "Electrical", "Civil", "Other"
 ])
 
-# New inputs
+interested_branches = st.multiselect(
+    "Other Branches You're Interested In (optional)",
+    ["CSE/IT", "ECE", "Mechanical", "Electrical", "Civil"]
+)
+
+interest_area = st.radio("Which area are you more interested in?", ["Software", "Hardware", "Not Sure"])
+
 math = st.slider("Math Score", 0, 100, 70)
 english = st.slider("English Score", 0, 100, 70)
 coding = st.slider("Coding Skill", 0, 100, 70)
@@ -50,9 +57,8 @@ vlsi = st.checkbox("Interested in VLSI")
 robotics = st.checkbox("Interested in Robotics")
 custom_tech = st.text_input("Other Tech Interests (comma-separated)", placeholder="e.g., Quantum Computing, Edge AI")
 
-# Data formatting
-input_data = pd.DataFrame([[
-    math, english, coding,
+# ---------------- Data Formatting ----------------
+input_data = pd.DataFrame([[math, english, coding,
     int(loves_tech), int(loves_design),
     talks_alot, logic,
     int(likes_outdoor), int(research_interest),
@@ -70,11 +76,48 @@ input_data = pd.DataFrame([[
     "Interested_in_Cybersecurity", "Interested_in_VLSI", "Interested_in_Robotics"
 ])
 
+# ---------------- Career Filtering Logic ----------------
+career_branch_map = {
+    "AI Engineer": ["CSE/IT", "ECE"],
+    "Data Scientist": ["CSE/IT", "ECE"],
+    "VLSI Engineer": ["ECE", "Electrical"],
+    "Cybersecurity Analyst": ["CSE/IT"],
+    "Robotics Engineer": ["ECE", "Mechanical"],
+    "Full Stack Developer": ["CSE/IT"],
+    "Embedded Systems Developer": ["ECE", "Electrical"],
+    "IoT Solutions Architect": ["ECE", "CSE/IT", "Electrical"],
+    "Cloud Engineer": ["CSE/IT"],
+    "DevOps Engineer": ["CSE/IT"],
+    "Sustainable Design Engineer": ["Mechanical", "Civil"],
+    "Mechanical Design Engineer": ["Mechanical"],
+    "Civil Infrastructure Analyst": ["Civil"],
+    "Power Electronics Engineer": ["Electrical", "ECE"],
+    "Bioinformatics Specialist": ["CSE/IT", "Biotech"],
+    "AR/VR Developer": ["CSE/IT", "Design"],
+    "Blockchain Developer": ["CSE/IT"],
+    "Product Manager": ["CSE/IT", "ECE", "Mechanical"],
+    "Technical Writer": ["CSE/IT", "ECE", "Any"],
+    "Digital Marketing Analyst": ["Any"]
+}
+
+# ---------------- Prediction Button ----------------
 if st.button("Predict My Future Career 🚀"):
-    prediction = model.predict(input_data)[0]
-    career = le.inverse_transform([prediction])[0]
+    probs = model.predict_proba(input_data)[0]
+    top_indices = probs.argsort()[::-1]
 
-    st.success(f"🌟 Recommended Career Path: **{career}**")
-    st.info(f"📘 Based on your profile and branch: {branch}")
+    valid_branches = [branch] + interested_branches
+    filtered_career = None
 
-    # Optional: add advice dictionary here later if you want
+    for idx in top_indices:
+        pred_career = le.inverse_transform([idx])[0]
+        valid_for = career_branch_map.get(pred_career, [])
+        if "Any" in valid_for or any(b in valid_for for b in valid_branches):
+            filtered_career = pred_career
+            break
+
+    if filtered_career:
+        st.success(f"🌟 Recommended Career Path: **{filtered_career}**")
+        st.info(f"📘 Based on your current and interested branches: {', '.join(valid_branches)}")
+    else:
+        st.warning("⚠️ No matching career found for your selected branches.")
+
