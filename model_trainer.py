@@ -4,13 +4,13 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 import pickle
 
-print("🔍 Reading dataset...")
+print("Reading dataset...")
 df = pd.read_csv("career_data.csv")  # Make sure this file is present
 
-# 🎯 Drop rows with missing values (if any)
+# Drop rows with missing values (if any)
 df.dropna(inplace=True)
 
-print("🔧 Encoding target labels...")
+print("Encoding target labels...")
 le = LabelEncoder()
 df['Career_Label'] = le.fit_transform(df['Career'])
 
@@ -27,18 +27,18 @@ feature_cols = [
 X = df[feature_cols]
 y = df['Career_Label']
 
-# 🔄 Split dataset
-print("📊 Splitting data...")
+#Split dataset
+print("Splitting data...")
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# 🚀 Train model
-print("🧠 Training model...")
+#Train model
+print("Training model...")
 model = RandomForestClassifier(n_estimators=150, random_state=42)
 model.fit(X_train, y_train)
 
-# 💾 Save model and label encoder
-print("💾 Saving model and label encoder...")
+#Save model and label encoder
+print("Saving model and label encoder...")
 with open("model.pkl", "wb") as f:
     pickle.dump((model, le), f)
 
-print("✅ Model training complete!")
+print("Model training complete!")
