@@ -35,7 +35,11 @@ Streamlit
 GitHub + Streamlit Cloud (for deployment)
 
 ⚙️ Setup
+
 pip install -r requirements.txt
+
+python model_trainer.py
+
 streamlit run app.py
 
 📜 License
